@@ -5,9 +5,9 @@ def nyc_pigeon_organizer(data)
   
   data.each_with_object({}) do |(key, value), list|
     
-    value.each do |key2, pidgeon_name|
+    value.each do |key2, pigeon_name|
       
-      pidgeon_name.each do |name|
+      pigeon_name.each do |name|
         
         binding.pry
         
