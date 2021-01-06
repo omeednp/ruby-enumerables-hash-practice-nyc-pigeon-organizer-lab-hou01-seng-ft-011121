@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, pigeon_name|
       
       pigeon_name.each do |name|
+        
         if list.include?(name) == false
           list[name] = {}
         end
