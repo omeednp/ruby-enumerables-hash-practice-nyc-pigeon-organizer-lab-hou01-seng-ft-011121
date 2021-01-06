@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           list[name] = {}
         end
         
-        if list[name][key].include?(key) == false
+        if list[name][key].find key == false
           list[name][key] = []
         end
         
