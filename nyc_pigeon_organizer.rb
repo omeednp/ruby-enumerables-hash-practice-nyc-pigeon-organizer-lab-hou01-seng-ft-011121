@@ -12,7 +12,10 @@ def nyc_pigeon_organizer(data)
         end
         
         if list[name][key].include?(key) == false
-          list[]
+          list[name][key] = []
+        end
+        
+        list[name][key] << [key2]
           
   
 end
