@@ -14,7 +14,8 @@ def nyc_pigeon_organizer(data)
           list[name][key] = []
         end
         
-        list[name][key] << [key2]
+        list[name][key] << key2
+        
       end
     end
   end
