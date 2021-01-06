@@ -1,3 +1,5 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
   # write your code here!
   
@@ -6,6 +8,8 @@ def nyc_pigeon_organizer(data)
     value.each do |key2, pidgeon_name|
       
       pidgeon_name.each do |name|
+        
+        binding.pry
         
         if list.include?(name) == false
           list[name] = {}
