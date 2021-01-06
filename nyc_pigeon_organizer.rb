@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       
       pidgeon_name.each do |name|
         
-        if list[name]
+        if list.include?(name)
+          
   
 end
